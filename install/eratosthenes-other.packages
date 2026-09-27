@@ -5,7 +5,7 @@ autoconf-archive
 asusctl
 base
 base-devel
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 dkms
 egl-wayland
@@ -65,7 +65,7 @@ linux-firmware-marvell
 dell-xps-touchpad-haptics
 
 # T2 MacBook support packages
-apple-bcm-firmware
+apple-bcm-firmware-fetcher
 apple-t2-audio-config
 linux-t2
 linux-t2-headers

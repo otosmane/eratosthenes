@@ -7,7 +7,7 @@ if lspci -nn | grep -q "106b:180[12]"; then
     linux-t2 \
     linux-t2-headers \
     apple-t2-audio-config \
-    apple-bcm-firmware \
+    apple-bcm-firmware-fetcher \
     t2fanrd \
     tiny-dfr
 
