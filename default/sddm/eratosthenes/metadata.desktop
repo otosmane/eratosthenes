@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=Hyprdots
+Name=Eratosthenes
 Description=Minimal terminal-style login theme matching the Limine bootloader aesthetic
-Author=Hyprdots
+Author=Eratosthenes
 Type=sddm-theme
 Version=1.0

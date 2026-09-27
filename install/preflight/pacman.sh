@@ -13,13 +13,13 @@ if [[ -n ${ERATOSTHENES_ONLINE_INSTALL:-} ]]; then
   sudo pacman-key --populate archlinux
 
   # Download and import eratosthenes public key so pacman can verify repo database
-  sudo curl -fsSLo /usr/share/pacman/keyrings/eratosthenes.gpg \
-    "https://pkgs.trevorndlovu.com/stable/x86_64/eratosthenes.gpg"
-  sudo pacman-key --add /usr/share/pacman/keyrings/eratosthenes.gpg
-  sudo pacman-key --lsign-key "eratosthenes-keyring"
+  sudo curl -fsSLo /usr/share/pacman/keyrings/hyprdots.gpg \
+    "https://pkgs.trevorndlovu.com/stable/x86_64/hyprdots.gpg"
+  sudo pacman-key --add /usr/share/pacman/keyrings/hyprdots.gpg
+  sudo pacman-key --lsign-key "hyprdots-keyring"
 
-  # Install eratosthenes-keyring to populate trusted keys
-  sudo pacman -Sy --noconfirm eratosthenes-keyring
+  # Install hyprdots-keyring to populate trusted keys
+  sudo pacman -Sy --noconfirm hyprdots-keyring
 
   # Refresh repos
   sudo pacman -Syyuu --overwrite='*' --noconfirm
